@@ -14,14 +14,14 @@ echo K3S_KUBECONFIG_MODE=\"644\" >> /etc/systemd/system/k3s.service.env
 systemctl restart k3s
 ```
 
-#2. Verificar status do cluster
+# 2. Verificar status do cluster
 ```shell
 su ubuntu
 
 kubectl get nodes
 ```
 
-#3 Criar deployment
+# 3 Criar deployment
 
 Comando de deployment:
 https://kubernetes.io/docs/tutorials/hello-minikube/
