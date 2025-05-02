@@ -23,7 +23,7 @@ kubectl get nodes
 
 # 3 Criar deployment
 
-Comando de deployment:
+Comandos de deployment obtidos em:
 https://kubernetes.io/docs/tutorials/hello-minikube/
 
 ```shell
