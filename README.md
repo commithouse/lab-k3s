@@ -1,5 +1,7 @@
 # 1. Instalar k3s 
 
+Lab trivial para rodar um deployment no Kubernetes com uma imagem qualquer e depois expoe a porta 8080 como serviço e valida usando um `CURL`.
+
 Vide documentação
 https://docs.k3s.io/
 
