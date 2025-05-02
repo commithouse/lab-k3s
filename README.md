@@ -51,3 +51,17 @@ kubectl expose deployment hello-node --type=LoadBalancer --port=8080
 # Lista os serviços disponíveis no cluster
 kubectl get services
 ```
+
+# 4 Validando deploy e serviço
+
+```shell
+# Obtenha o <EXTERNAL-IP>
+kubectl get services
+
+# teste a chamada com curl
+curl http://<EXTERNAL-IP>:8080
+
+# verifique a saida retornada
+```
+
+Com isso você terminou seu primeiro lab de k8s! 👍
