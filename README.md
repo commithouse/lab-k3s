@@ -65,3 +65,13 @@ curl http://<EXTERNAL-IP>:8080
 ```
 
 Com isso você terminou seu primeiro lab de k8s! 👍
+
+
+# 5 limpando o ambiente 
+```shell
+# limpando o serviço
+kubectl delete service hello-node
+
+# limpando o deployment
+kubectl delete deployments hello-node
+```
